@@ -18,7 +18,7 @@ router.get("/balance/:address", async (req, res) => {
   try {
     const balance = await provider.getBalance(address);
     res.json({ balance: ethers.utils.formatEther(balance) });
-  } catch (error) {
+  catch (error) {
     res.status(500).json({ error: "Failed to fetch balance" });
   }
 });
