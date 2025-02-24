@@ -105,7 +105,7 @@ const limiter = rateLimit({
 });
 
 app.use(cors());
-app.use(express.json());
+app use(express.json());
 app.use(limiter);
 
 app.use("/api/wallet", walletRoutes);
@@ -235,9 +235,10 @@ CMD ["npm", "start"]
 
 ---
 
-### **File: `frontend/src/App.js`**
+### **File: `frontend/src/index.js`**
 ```javascript
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import ConnectWallet from "./components/ConnectWallet";
 import BalanceDisplay from "./components/BalanceDisplay";
 import "./App.css";
@@ -254,7 +255,7 @@ function App() {
   );
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("root"));
 ```
 - **Purpose**: Main React component for the app.
 - **Why Important**: Renders the UI and manages state for wallet connection and balance display.
@@ -536,4 +537,4 @@ This is a **fully functioning web-based wallet application** with a backend for 
 2. **Scalability**: Support multiple networks (e.g., Polygon, Binance Smart Chain).
 3. **UI/UX**: Add loading states, error messages, and better styling.
 
-Let me know if you need further assistance! 🚀.
+Let me know if you need further assistance! 🚀
