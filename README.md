@@ -17,6 +17,7 @@ C:\Users\Hal\dev-gui\wallet_app\app\frontend>npm start
 Could not find a required file.
   Name: index.html
   Searched in: C:\Users\Hal\dev-gui\wallet_app\app\frontend\public
+- The html UI is not rendering anything. And I had to change App.js to index.js -- the react start script is referencing Index.js and I don't know where to change it. 
 
 Check OUTPUT.md for the complete unaltered output.
 
