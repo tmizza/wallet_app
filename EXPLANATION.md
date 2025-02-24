@@ -1,6 +1,6 @@
 **Here you can check all the code explanation.**
 
-Let’s break down the **fully functioning web-based wallet application** step by step, explaining each file, its purpose, caveats, possible improvements, and how to run the application. I’ll ensure nothing is left out.
+Let’s go through the **fully functioning web-based wallet application** step by step, explaining each file, its purpose, caveats, possible improvements, and how to run the application. I’ll ensure nothing is left out.
 
 ---
 
@@ -536,4 +536,4 @@ This is a **fully functioning web-based wallet application** with a backend for 
 2. **Scalability**: Support multiple networks (e.g., Polygon, Binance Smart Chain).
 3. **UI/UX**: Add loading states, error messages, and better styling.
 
-Let me know if you need further assistance! 🚀
+Let me know if you need further assistance! 🚀.
